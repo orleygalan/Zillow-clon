@@ -1,0 +1,6022 @@
+@media screen and (min-width: 1014px) {
+  #root {
+    overflow-x: hidden;
+  }
+
+  .menuGeneral {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .cerrarBurgerPrincipal{
+    display: none;
+  }
+
+  .movilesAdaptivilidadFlechas{
+    display: none;
+  }
+
+  .menu ul li {
+    list-style: none;
+    color: black;
+  }
+
+  .sacarName {
+    color: rgb(46, 43, 43);
+  }
+
+  .sacarName:hover {
+    transition: 0.4s;
+    color: blue;
+  }
+
+  .menuAyuda {
+    display: flex;
+    position: absolute;
+    right: 10%;
+  }
+
+  .menuHelpTwo {
+    display: flex;
+    gap: 24%;
+  }
+
+  .loro img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 55px;
+  }
+
+  .contenedorPopUpLoro {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 100%;
+    z-index: 9;
+    right: -87px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+  .contenedorPopUpLoro ul button {
+    list-style: none;
+    margin-left: -9%;
+    width: 100%;
+    background-color: white;
+    border-color: white;
+    text-align: start;
+  }
+
+  .contenedorPopUpLoro ul button:hover {
+    font-weight: 800;
+  }
+
+  .segundoPlanoSacarName {
+    width: 140px;
+  }
+
+  .menu {
+    margin-top: 0;
+  }
+  .menuSegundoAyuda ul li {
+    list-style: none;
+    color: black;
+  }
+
+  .contentlogoZillow {
+    width: 130px;
+    height: 29px;
+    position: absolute;
+    left: 48%;
+  }
+
+  .contentlogoZillowpantlaPrincipal{
+    display: none;
+  }
+
+  .loroPantallaPrincipal img {
+    display: none;
+  }
+
+  .menuBurgerPrincipal{
+    display: none;
+  }
+
+  .menuBurger{
+    display: none;
+  }
+
+  .cerrarBurger{
+    display: none;
+  }
+
+  .cerrarBurgerRent{
+    display: none;
+  }
+
+  .menuBurgerRent{
+    display: none;
+  }
+
+  .loroCelular{
+    display: none;
+  }
+
+  .logoZillow {
+    object-fit: cover;
+    top: 3%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logoZillowInforHome{
+    margin-left: 30%;
+  }
+
+  .pop-uppInforHome-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+    z-index: 999; /* Asegura que el pop-up esté por encima de otros elementos */
+}
+
+  .mapGooglrHrCelular{
+    display: none;
+  }
+
+  .soloParaCelularRutasArriba{
+    display: none;
+  }
+
+  .soloParaCelularRutas{
+    display: none;
+  }
+
+  .soloParaCelularHelAyuda{
+    display: none;
+  }
+
+  .soloParaCelularRutasHelAyuda{
+    display: none;
+  }
+
+  .soloParaCelularRutasMenuTwo{
+    display: none;
+  }
+
+  .soloParaCelularRutasMenuTwoArriba{
+    display: none;
+  }
+
+  .paraCelularesRent{
+    width: 100%;
+  }
+
+  .paraCelularesAbajoRent{
+    display: none;
+  }
+
+  .imageFondoPrincipal {
+    background-image: url(https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2023/07/1920w_nationalbrand.webp);
+    width: 100%;
+    height: 403px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .inputBuscadorGeneral {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 100%;
+  }
+
+  .tipadoLetra {
+    text-align: center;
+    color: white;
+    padding-top: 7.5%;
+    font-size: 220%;
+  }
+
+  .mm {
+    width: 500px;
+    height: 900px;
+  }
+
+  #inputMap {
+    width: 99%;
+    height: 38px;
+    z-index: 9;
+  }
+
+  .credencialesGustos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+  }
+
+  hr {
+    margin: 0.5%;
+  }
+
+  .pop-upMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .posicionamiento {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    width: 290vh;
+    overflow: hidden;
+    left: -300%;
+    padding-top: 45%;
+    height: 50vh;
+    z-index: 19;
+  }
+
+  .posicionamientoAyuda {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    width: 40vh;
+    overflow: hidden;
+    left: 0;
+    padding-top: 45%;
+    height: 60vh;
+    z-index: 9;
+    overflow-y: scroll;
+  }
+
+  .pop-up {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .listBuy ul li {
+    color: blue;
+  }
+
+  .listBuy ul li:hover {
+    color: black;
+    cursor: context-menu;
+  }
+
+  .listFinder ul li {
+    color: blue;
+  }
+
+  .listFinder ul li:hover {
+    color: black;
+    cursor: context-menu;
+  }
+
+  .lineaVertical {
+    width: 0.1%;
+    height: 200px;
+    margin: 0;
+    background-color: black;
+    z-index: 9;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+
+  .lineaVerticalExtencion {
+    width: 0.1%;
+    height: 200px;
+    margin: 0;
+    background-color: black;
+    z-index: 9;
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 1%;
+  }
+
+  .contenedorListBuy {
+    display: flex;
+    margin-left: 14%;
+  }
+
+  .titleList {
+    margin-left: 11%;
+    margin-top: 5%;
+    margin-bottom: 9%;
+    color: black;
+  }
+
+  .contenedorListRent {
+    display: flex;
+    margin-left: 12%;
+  }
+
+  .contenedorListSell {
+    display: flex;
+    margin-left: 6%;
+  }
+
+  .contenedorListLoans {
+    display: flex;
+    margin-left: 15%;
+  }
+
+  .contenedorListLoans ul li p {
+    width: 150%;
+  }
+
+  .contenedorListFinder {
+    display: flex;
+    margin-left: 8%;
+  }
+
+  .contenedorListFinder ul li p {
+    width: 140%;
+  }
+
+  .listFinder {
+    gap: 10px;
+  }
+
+  .titleListManage {
+    margin-top: -19%;
+    margin-left: 5%;
+  }
+
+  .vimosHr {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+  }
+  /* Buy y Rent */
+  .contentHomeBien {
+    height: 76vh;
+    width: 52%;
+    position: absolute;
+    top: 21%;
+    right: 0;
+    background-color: white;
+    overflow-y: scroll;
+  }
+
+  .contentRent {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .contentHomeMuestra {
+    height: auto;
+  }
+
+  .contentBuy {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .cartasBienes {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cartaNueva {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 270px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+
+  .cartaNueva p {
+    font-size: 80%;
+  }
+
+  .bienesImage1 {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .cartas {
+    width: 50%;
+  }
+
+  .cajaBien {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cartas img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  /*end Buy and Rent */
+
+  .btnsHome {
+    width: 110px;
+    background-color: white;
+    border: none;
+  }
+
+  .btnsHome:hover {
+    color: rgb(102, 102, 223);
+    transition: 0.5s;
+  }
+
+  .apply {
+    width: 80%;
+    background-color: blue;
+    margin-left: 10%;
+    color: white;
+  }
+
+  .contBtnsHome {
+    margin-top: 6%;
+
+    z-index: 5;
+    position: absolute;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    align-self: flex-start;
+  }
+
+  .status {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgb(64, 99, 218);
+    margin-left: 0.8%;
+  }
+
+  .status p {
+    margin: 0;
+  }
+
+  .controlPrecio {
+    z-index: 8;
+    position: absolute;
+    top: 25%;
+    left: 26%;
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+  }
+
+  .abrir {
+    z-index: 8;
+    position: absolute;
+    left: 347px;
+    border-color: blue;
+    background-color: white;
+  }
+
+  .abrir p {
+    margin: 0;
+  }
+
+  .priceRange {
+    padding-top: 5%;
+    height: 50px;
+    width: 100%;
+    background-color: beige;
+  }
+
+  .cardCost {
+    display: flex;
+    padding-bottom: 8%;
+    padding-top: 7%;
+    gap: 15px;
+    margin-left: 6%;
+    padding-right: 1.5%;
+  }
+
+  .cuadroElegir {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    left: 469px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .applyParaEligir {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+
+  .Bedrooms {
+    margin-left: 263px;
+    position: absolute;
+  }
+
+  .Bedrooms button {
+    border-color: blue;
+  }
+
+  .Numberbedrooms {
+    background-color: rgb(240, 214, 214);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 50px;
+  }
+
+  .paraEligir {
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    display: flex;
+    background-color: rgb(240, 214, 214);
+    gap: 1px;
+    border-radius: 9px;
+    width: 90%;
+  }
+
+  .paraEligir p {
+    height: 50px;
+    width: 2%;
+    background-color: black;
+    margin: 0;
+  }
+
+  .paraEligir button {
+    width: 16%;
+    background-color: rgb(240, 214, 214);
+  }
+
+  #minium {
+    width: 100px;
+  }
+
+  #maximum {
+    width: 100px;
+  }
+
+  .contentCarrusel {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .contentScroll {
+    display: flex;
+    overflow-x: hidden;
+    width: 80%;
+    background-color: white;
+    padding-bottom: 4%;
+    padding-top: 1%;
+  }
+
+  .CartasCarrusel img {
+    width: 350px;
+    height: 165px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .CartasCarrusel {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+
+  .control {
+    position: absolute;
+    z-index: 9;
+    top: -25%;
+  }
+
+  .anterior {
+    right: 120px;
+    border-radius: 50px;
+    font-size: 20px;
+    top: -18%;
+  }
+
+  .siguiente {
+    right: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    top: -18%;
+  }
+
+  .paradise {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .based {
+    margin-top: 0%;
+    margin-left: 10%;
+  }
+
+  .Trending {
+    margin-top: 0;
+    margin-left: 10%;
+  }
+
+  .most {
+    margin-top: 0%;
+    margin-left: 10%;
+  }
+
+  .heart {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 30px;
+  }
+
+  .heartRed {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 30px;
+    color: red;
+  }
+
+  .contenCardPrincipal {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    background-color: rgb(209, 209, 228);
+  }
+
+  .buy-home img {
+    width: 100%;
+  }
+
+  .buy-home {
+    margin-top: 3%;
+    width: 350px;
+    height: 480px;
+    object-fit: cover;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .buy-home p {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .buy-home:hover {
+    margin-top: 40px;
+    transition: 1s ease;
+    width: 365px;
+    height: 480px;
+  }
+
+  .buy-home button {
+    border-color: blue;
+    background-color: white;
+    color: blue;
+  }
+
+  .buy-home button:hover {
+    background-color: rgb(51, 51, 238);
+    color: white;
+  }
+
+  .pop-uppInforHome {
+    position: absolute;
+    background-color: rgb(248, 243, 243);
+    width: 90%;
+    height: 95vh;
+    top: 80%;
+    margin-left: 5%;
+    z-index: 10;
+  }
+
+  .pop-uppInforHome .image1 {
+    width: 100%;
+    height: 340px;
+  }
+
+  .imagenes0:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contentImages {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .contentImage2 {
+    width: 25%;
+  }
+
+  .contentImage4 {
+    width: 25%;
+    margin-left: 10px;
+  }
+
+  .contentImages .image2 {
+    height: 166px;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .contentImages .image4 {
+    height: 166px;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .imagenes1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imagenes1:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .imagenes2 {
+    margin-left: 10px;
+  }
+
+  .imagenes2:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .imagenes3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imagenes3:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .imagenes4 {
+    margin-left: 10px;
+  }
+
+  .imagenes4:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+
+  .contentInforHomen {
+    overflow-y: scroll;
+    height: 100%;
+    background-color: rgb(209, 209, 228);
+  }
+
+  .dataHomePopUp {
+    display: flex;
+    position: relative;
+    margin-top: 8%;
+  }
+
+  .cosasInternas {
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+    padding-left: 60%;
+  }
+
+  .valorDolar p {
+    width: 300%;
+  }
+
+  .cosasInternas p {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .inforHomeData {
+    display: flex;
+    justify-content: space-around;
+    gap: 15%;
+  }
+
+  .cajaButnDataExterna {
+    width: 300px;
+    border-radius: 6px;
+    height: 150px;
+    margin-top: 2.5%;
+  }
+
+  .cajaButnData {
+    margin-left: 18%;
+    margin-top: 7%;
+  }
+
+  .cajaButnData .uno {
+    margin-top: 10%;
+    width: 190px;
+    color: blue;
+    border-color: blue;
+    background-color: rgb(252, 251, 250);
+  }
+
+  .cajaButnData .uno:hover {
+    opacity: 0.7;
+  }
+
+  .cajaButnData .dos:hover {
+    opacity: 0.7;
+  }
+
+  .cajaButnData .dos {
+    width: 190px;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+  }
+
+  .credencialesData button {
+    width: 270px;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+  }
+
+  .btnUno {
+    margin-left: 3%;
+  }
+
+  .btnDos {
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
+
+  .btnTres {
+    margin-left: 3%;
+  }
+
+  .btnCuatro {
+    margin-left: 8px;
+    margin-bottom: 4%;
+  }
+
+  .hrData {
+    width: 90%;
+    margin-left: 5%;
+    background-color: black;
+  }
+
+  .encabezado {
+    width: 100%;
+    background-color: rgb(209, 209, 228);
+    position: absolute;
+    z-index: 14;
+  }
+
+  .salirData {
+    background-color: rgb(209, 209, 228);
+    color: black;
+  }
+
+  .velamos {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    margin-left: -2%;
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(250, 239, 239);
+    padding: 20px;
+    z-index: 9;
+    height: 97vh;
+    width: 90%;
+  }
+
+  .popup button {
+    z-index: 9;
+    background-color: red;
+    width: 10%;
+  }
+
+  .contentVisible {
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .contenedorVisible0 {
+    object-fit: cover;
+    width: 430px;
+    height: 390px;
+  }
+
+  .visible1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .visible1:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contenedorVisible2 {
+    width: 317px;
+    height: 190px;
+    /* display: flex; */
+  }
+
+  .visible2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .visible2:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .visible3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+
+  .visible3:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contenedorVisible4 {
+    width: 317px;
+    height: 190px;
+    /* display: flex; */
+  }
+
+  .visible4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .visible4:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .visible5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+  }
+
+  .visible5:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contentenedorEjecucuionBelleza {
+    overflow-y: scroll;
+    height: 100%;
+    width: 102%;
+  }
+
+  .contentVisible {
+    margin-left: 5%;
+  }
+
+  .comodidad {
+    width: 100%;
+  }
+
+  .comodidad button {
+    width: 300px;
+    border-color: blue;
+    color: blue;
+    background-color: rgb(248, 247, 246);
+  }
+
+  .credencialesDataNew {
+    display: flex;
+    margin-left: 4%;
+  }
+
+  .credencialesDataNew button {
+    width: 100%;
+    border-color: antiquewhite;
+    background-color: rgb(233, 217, 197);
+  }
+
+  .btnUnoNew {
+    width: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .btnCuatroNew {
+    margin-left: 10px;
+  }
+
+  .btnTresNew {
+    width: 500px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .menuCabeza {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(250, 239, 239);
+    position: absolute;
+    z-index: 14;
+  }
+
+  .menuCabeza .salirDataNew {
+    width: 200px;
+    color: black;
+    background-color: rgb(250, 239, 239);
+  }
+
+  .dolares {
+    width: 150px;
+    height: 200px;
+    overflow-y: scroll;
+    z-index: 19;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: 5%;
+  }
+
+  .cobertura {
+    height: 100%;
+  }
+
+  .corazon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    margin: 1%;
+  }
+
+  .corazon-activo {
+    color: red;
+  }
+
+  /* estilos css de Sell */
+
+  .contenedorBurgerSell{
+    display: none;
+  }
+
+  .menuBurgerSell{
+    display: none;
+  }
+
+  .cerrarBurgerSell{
+    display: none;
+  }
+
+  .ZillowCelularSell{
+    display: none;
+  }
+
+  .ZillowCelularSell img{
+    display: none;
+  }
+
+  .loroCelularSell img{
+    display: none;
+  }
+
+  .contenedorPopUpLoroSell{
+    display: none;
+  }
+
+  .contenedorPopUpLoroSell button{
+    display: none;
+  }
+
+  .fondoHome {
+    background-image: url(https://th.bing.com/th/id/OIP.7iCZV-PXwllJatbmfk5hfQHaDw?rs=1&pid=ImgDetMain);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+  }
+
+  .simpler {
+    color: white;
+    padding-top: 13%;
+    text-align: center;
+    font-family: auto;
+    font-weight: 900;
+  }
+
+  .contentSellParrafos {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contentSellParrafoAbajo {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 5%;
+  }
+
+  .contentSellParrafoAbajo .contenidouno {
+    margin-left: 8%;
+  }
+
+  .partnerParrafo {
+    font-family: auto;
+    font-weight: 900;
+    margin-top: 11%;
+  }
+
+  .contentSellParrafoAbajo section {
+    margin-top: 3%;
+    width: 29%;
+    justify-content: flex-start;
+  }
+
+  .parteInternaParrafo {
+    width: 50%;
+  }
+
+  .imageSellHome {
+    width: 350px;
+    align-self: center;
+  }
+
+  .imageSellHome img {
+    width: 100%;
+  }
+
+  .inputParrafoHome input {
+    margin-top: 3%;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+  }
+
+  .azulMedioSell {
+    background-color: rgb(214, 233, 245);
+  }
+
+  .partefinalContentSell {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .imageSellHomeCelular{
+    display: none;
+  }
+
+  .imageSellHomeParteFinal {
+    width: 500px;
+    align-items: center;
+  }
+
+  .imageSellHomeParteFinal img {
+    width: 100%;
+  }
+
+  .parrafoFina {
+    width: 50%;
+  }
+
+  .parrafoFina h1 {
+    margin-top: 15%;
+    font-size: 320%;
+    font-family: auto;
+    font-weight: 900;
+  }
+
+  .FinalButton button {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: auto;
+  }
+
+  .FinalButton button:hover {
+    opacity: 0.7;
+  }
+
+  .letraAzulLink {
+    color: blue;
+    font-family: auto;
+  }
+
+  .letraAzulLink:hover {
+    color: black;
+    font-family: auto;
+  }
+
+  .abjuntado {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 6%;
+  }
+
+  .abjuntado h5 {
+    color: black;
+    font-size: 200%;
+    font-family: auto;
+    font-weight: 600;
+    margin-bottom: 4%;
+  }
+
+  .abjuntado ul {
+    width: 40%;
+  }
+
+  .abjuntado section {
+    width: 40%;
+  }
+
+  .ciudad img{
+    width: 100%;
+    margin-bottom: 1%;
+  }
+
+  .ciudadRenderizado img {
+    width: 100%;
+  }
+
+  .IconEmpresa {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 1%;
+  }
+
+  .Zillow {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  .textFinal {
+    width: 100%;
+    text-align: center;
+    font-size: 70%;
+    font-family: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+  }
+
+  .textFinal p {
+    width: 40%;
+  }
+
+  /* Home Loans css */
+
+  .imageContent1 img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .imageContent1 {
+    margin-bottom: 3%;
+    position: relative;
+  }
+
+  .imageContent1 h1 {
+    width: 40%;
+    margin-left: 8%;
+    font-family: auto;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 22%;
+  }
+
+  .imageContent1 p {
+    width: 50%;
+    margin-left: 8%;
+    font-family: auto;
+    color: white;
+    position: absolute;
+    top: 55%;
+  }
+
+  .imageContent1 button {
+    background-color: rgb(82, 82, 240);
+    color: white;
+    border-radius: 9px;
+    margin-left: 8%;
+    position: absolute;
+    top: 73%;
+    border-color: rgb(82, 82, 240);
+  }
+
+  .imageContent1 button:hover {
+    margin-left: 8%;
+    border-color: blue;
+    background-color: blue;
+  }
+
+  .contenido {
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  .contenido .uno {
+    margin-top: 3%;
+  }
+
+  .contenido p {
+    width: 80%;
+    font-size: 80%;
+    font-family: auto;
+  }
+
+  .contenido .tamosDentro {
+    font-size: 250%;
+  }
+
+  .contenidoDeCuatro {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    background-color: rgb(198, 233, 221);
+    margin-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+  }
+
+  .contenidoDeCuatro ul li {
+    list-style: none;
+    margin-top: 4%;
+  }
+
+  .contenidoAddress {
+    text-align: center;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  /* Home Loans css  */
+
+  .HomenLoansuno img {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+  }
+
+  .contentWhite {
+    background-color: rgb(252, 251, 251);
+    width: 70%;
+    height: 75vh;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    text-align: center;
+  }
+
+  .contentWhite h1 {
+    font-family: auto;
+    font-weight: 800;
+    font-size: 300%;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 6%;
+  }
+
+  .contentWhite p {
+    font-family: auto;
+    font-weight: 100;
+    font-size: 100%;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+
+  .contentWhite button {
+    font-family: auto;
+    font-weight: 300;
+    font-size: 100%;
+    width: 30%;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    border-color: blue;
+    margin-bottom: 1%;
+  }
+
+  .contentWhite button:hover {
+    opacity: 0.7;
+  }
+
+  .contentWhite b {
+    color: black;
+    text-align: center;
+  }
+
+  .contentWhite b:hover {
+    color: blue;
+  }
+
+  .HomeLoansDos h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    font-family: auto;
+    font-weight: 800;
+    font-size: 250%;
+  }
+
+  .HomeLoansDos .juntoAH3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .cuadroCalculo {
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .calculoUno {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contenedorimage {
+    width: 300px;
+  }
+
+  .calculoUno img {
+    width: 100%;
+  }
+
+  .contenedorTexto {
+    width: 40%;
+    padding-top: 5%;
+  }
+
+  .calculoUno p {
+    font-size: 100%;
+    font-family: auto;
+    font-weight: 100;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .calculoUno b {
+    font-size: 200%;
+    font-family: auto;
+    font-weight: 700;
+  }
+
+  .calculoDos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .calculoDos div {
+    width: 300px;
+  }
+
+  .calculoDos .uno {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    font-family: auto;
+  }
+
+  .calculoDos .uno:hover {
+    opacity: 0.7;
+  }
+
+  .calculoDos .dos {
+    width: 100%;
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    font-family: auto;
+  }
+
+  .calculoDos .dos:hover {
+    opacity: 0.7;
+  }
+
+  .HomenLoansTres {
+    width: 100%;
+  }
+
+  .HomenLoansTres .chonchito {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+  }
+
+  .chonchito section {
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+
+  .HomenLoansTres .chonchito section b {
+    font-family: auto;
+    font-size: 200%;
+    font-weight: 700;
+    width: 20%;
+  }
+
+  .HomenLoansTres section p {
+    padding-bottom: 4%;
+    font-family: auto;
+    font-size: 100%;
+    font-weight: 100;
+    width: 55%;
+  }
+
+  .HomenLoansTres section button {
+    width: 60%;
+    border-color: blue;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+  }
+
+  .chonchito div {
+    width: 300px;
+    margin-top: 3%;
+  }
+
+  .chonchito div img {
+    width: 100%;
+  }
+
+  .HommeLoansImage img {
+    width: 100%;
+  }
+
+  .listaHomeLoans {
+    display: flex;
+  }
+
+  .listaHomeLoans ul li {
+    list-style: none;
+    color: black;
+    padding-bottom: 4%;
+  }
+
+  .listaHomeLoans .ListaHomeUno li {
+    color: blue;
+  }
+
+  .listaHomeLoans .ListaHomeUno li:hover {
+    opacity: 0.7;
+  }
+
+  .HomenLoansCuatro {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .HomenLoansCuatro .addressHommeLoans {
+    width: 300px;
+  }
+
+  .HomenLoansCuatro .addressHommeLoans p {
+    width: 100%;
+    color: black;
+  }
+
+  /* Manage Rentals css */
+
+  .manageRentalUno .contentImageManage img {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .contentImageManage h2 {
+    width: 50%;
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 25%;
+    font-family: auto;
+    font-weight: 700;
+    font-size: 290%;
+    text-align: center;
+  }
+
+  .contentImageManage p {
+    width: 50%;
+    position: absolute;
+    color: white;
+    top: 55%;
+    left: 25%;
+    font-family: auto;
+    font-weight: 100;
+    font-size: 130%;
+    text-align: center;
+  }
+
+  .contentImageManage button {
+    width: 30%;
+    position: absolute;
+    color: white;
+    background-color: blue;
+    top: 75%;
+    left: 35%;
+    font-family: auto;
+    font-weight: 500;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  .contentImageManage button:hover {
+    opacity: 0.7;
+  }
+
+  .manageRentalDos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .manageImageUno img {
+    width: 40%;
+  }
+
+  .manageImageUno {
+    width: 20%;
+  }
+
+  .manageImageUno h5 {
+    font-family: auto;
+    font-weight: 600;
+    font-size: 120%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .manageImageUno p {
+    font-family: auto;
+    font-weight: 100;
+    font-size: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .manageColado {
+    margin-top: 5%;
+  }
+
+  .lineaHr {
+    margin-left: 15%;
+  }
+
+  /* advertise css */
+
+  .adveriseCajaUno {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+  }
+
+  .adveriseCajaUno img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5%;
+  }
+
+  .cartaUno {
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .cartaUno:hover {
+    width: 28%;
+    transition: 0.8s;
+  }
+
+  .cartaUno button {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    margin-top: 6%;
+    margin-bottom: 8%;
+  }
+
+  .cartaUno button:hover {
+    opacity: 0.7;
+  }
+
+  .cartaUno b {
+    font-size: 150%;
+    font-family: auto;
+    font-weight: 700;
+  }
+
+  .contentAdvertise .one {
+    text-align: center;
+    font-family: auto;
+    font-weight: 700;
+    font-size: 290%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  .contentAdvertise .two {
+    text-align: center;
+    font-family: auto;
+    font-weight: 400;
+    font-size: 120%;
+    margin-bottom: 1%;
+  }
+
+  .contentAdvertise .three {
+    text-align: center;
+    font-family: auto;
+    font-weight: 600;
+    font-size: 160%;
+    margin-bottom: 5%;
+  }
+
+  /* help css  */
+
+  .helpUno img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .helpInput {
+    width: 40%;
+    height: 38px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+
+  .helpInput input {
+    width: 100%;
+    border-radius: 19px;
+    height: 100%;
+    border-top: white;
+  }
+
+  .helpDos {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  .helpCajaUno {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 17px;
+    margin-top: 2%;
+  }
+
+  .helpCajaUno div {
+    width: 25%;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .helpCajaUno div button {
+    background-color: white;
+    border-color: blue;
+    color: blue;
+    width: 100%;
+    height: 100%;
+  }
+
+  .helpCajaUno div button:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.7s;
+  }
+
+  .helpCajaUnoEspecial {
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  .helpCajaUnoEspecial div {
+    width: 77%;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .helpCajaUnoEspecial button {
+    width: 100%;
+    background-color: white;
+    border-color: blue;
+    color: blue;
+    margin-left: 15%;
+    height: 100%;
+  }
+
+  .helpCajaUnoEspecial button:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.7s;
+  }
+
+  .seAcosto {
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .conjuntofinal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .conjuntofinal .uno:hover {
+    color: blue;
+    transition: 0.6;
+  }
+
+  .conjuntofinal .dos:hover {
+    color: blue;
+    transition: 0.6;
+  }
+
+  .conjuntofinal .tres:hover {
+    color: blue;
+    transition: 0.6;
+  }
+
+  .sacarMapCelulares button{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 729px) {
+  
+    .laptosRutas{
+      display: none;
+    }
+
+  .movilesAdaptivilidadFlechas button{
+    position: absolute;
+    margin-left: 74%;
+    border-color: blue;
+    margin-top: 1%;
+  }
+
+  .posicionamientoMoviles{
+    width: 100%;
+    height: 50vh;
+    overflow-y: scroll;
+  }
+
+
+  .menuGeneral {
+    display: none;
+  }
+  .contentPrecio {
+    display: flex;
+    /* position: absolute; */
+    top: 9%;
+    right: 0;
+  }
+
+  .btnsHome {
+    width: 110px;
+    background-color: white;
+    border: none;
+  }
+
+  .btnsHome:hover {
+    color: rgb(102, 102, 223);
+    transition: 0.5s;
+  }
+
+  .apply {
+    width: 80%;
+    background-color: blue;
+    margin-left: 10%;
+    color: white;
+  }
+
+  .contBtnsHome {
+    margin-top: 20%;
+    margin-left: 3%;
+    z-index: 5;
+    position: absolute;
+    width: 200px;
+    background-color: rgb(173, 206, 228);
+    border-radius: 5px;
+    align-self: flex-start;
+  }
+
+  .contBtnsHome .btnsHome {
+    background-color: rgb(173, 206, 228);
+  }
+
+  .contBtnsHomeRent {
+    margin-top: 33%;
+    margin-left: 3%;
+    z-index: 5;
+    position: absolute;
+    width: 200px;
+    background-color: rgb(173, 206, 228);
+    border-radius: 5px;
+    align-self: flex-start;
+  }
+
+  .contBtnsHomeRent .btnsHome {
+    background-color: rgb(173, 206, 228);
+  }
+
+  .status {
+    top: 9%;
+    margin: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgb(64, 99, 218);
+    left: 3%;
+  }
+
+  .status p {
+    font-size: 100%;
+    margin: 0;
+  }
+
+  .mapGooglrHr {
+    display: none;
+  }
+
+  .controlPrecio {
+    z-index: 8;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    background-color: rgb(173, 206, 228);
+    border-radius: 5px;
+    width: 345px;
+    padding-bottom: 5%;
+  }
+
+  .inputPrice {
+    width: 130px;
+  }
+
+  .dolares {
+    height: 280px;
+    overflow-y: auto;
+  }
+
+  .cobertura {
+    height: auto;
+    background-color: rgb(250, 248, 248);
+  }
+
+  .abrir {
+    z-index: 8;
+    position: absolute;
+    left: 135px;
+    border-color: blue;
+    background-color: white;
+    margin: 0;
+    width: auto;
+    height: auto;
+    top: 9%;
+  }
+
+  .abrir p {
+    margin: 0;
+    font: 70%;
+  }
+
+  .abrir h6 {
+    display: none;
+    margin: 0;
+    font: 20%;
+  }
+
+  .priceRange {
+    padding-top: 5%;
+    height: 50px;
+    width: 100%;
+    background-color: beige;
+  }
+
+  .cardCost {
+    display: flex;
+    padding-bottom: 8%;
+    padding-top: 7%;
+    gap: 15px;
+    margin-left: 6%;
+    padding-right: 1.5%;
+  }
+
+  .cuadroElegir {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    left: 1%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .applyParaEligir {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+
+  .Bedrooms {
+    display: none;
+  }
+
+  /* buy y rent */
+  .contentHomeBien {
+    height: 81%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .contentRent {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .contentHomeMuestra {
+    height: auto;
+  }
+
+  .contentBuy {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .cartasBienes {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cartaNueva {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 270px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .cartaNueva p {
+    font-size: 80%;
+  }
+
+  .bienesImage1 {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .cartas {
+    width: 100%;
+  }
+
+  .cajaBien {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cartas img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  #inputMapAutoCompleteBuy {
+    top: 1.5%;
+    left: 22%;
+    position: absolute;
+    height: 30px;
+    width: 54%;
+  }
+
+  .cerrar {
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 150%;
+    font-weight: 700;
+    position: absolute;
+    z-index: 13;
+  }
+
+  .mapGooglrHrCelular {
+    margin-top: 15%;
+  }
+
+  .buscandoHome {
+    margin-left: 4%;
+    font-size: 120%;
+    font-weight: 700;
+  }
+
+  .heart {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 30px;
+  }
+
+  .heartRed {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 30px;
+    color: red;
+  }
+
+  .corazon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    margin: 1%;
+  }
+
+  .corazon-activo {
+    color: red;
+  }
+
+  .loroCelular img {
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+
+  .contenedorPopUpLoro {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 7%;
+    z-index: 10;
+    right: 13px;
+    background-color: rgb(245, 227, 227);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+  .contenedorPopUpLoro ul button {
+    list-style: none;
+    margin-left: -9%;
+    width: 100%;
+    background-color: rgb(245, 227, 227);
+    border-color: rgb(245, 227, 227);
+    text-align: start;
+  }
+
+  .contenedorPopUpLoro ul button:hover {
+    font-weight: 800;
+  }
+
+  .loroCelularSell img {
+    position: absolute;
+    right: 4%;
+    top: 2%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+
+  .contenedorPopUpLoroSell {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 7%;
+    z-index: 10;
+    right: 13px;
+    background-color: rgb(245, 227, 227);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+  .contenedorPopUpLoroSell ul button {
+    list-style: none;
+    margin-left: -9%;
+    width: 100%;
+    background-color: rgb(245, 227, 227);
+    border-color: rgb(245, 227, 227);
+    text-align: start;
+  }
+
+  .contenedorPopUpLoroSell ul button:hover {
+    font-weight: 800;
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(250, 239, 239);
+    padding: 20px;
+    z-index: 9;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .popup button {
+    z-index: 9;
+    background-color: red;
+    width: 10%;
+  }
+
+  .contentVisible {
+    display: flex;
+    margin-top: 4%;
+  }
+
+  .contenedorVisible0 {
+    width: 400px;
+    height: 200px;
+  }
+
+  .visible1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .visible1:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contenedorVisible2 {
+    width: 200px;
+    height: 95px;
+    /* display: flex; */
+    object-fit: cover;
+  }
+
+  .visible2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .visible2:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .visible3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+
+  .visible3:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contenedorVisible4 {
+    width: 200px;
+    height: 95px;
+    /* display: flex; */
+  }
+
+  .visible4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .visible4:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .visible5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+  }
+
+  .visible5:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contentenedorEjecucuionBelleza {
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+  }
+
+  .contentVisible {
+    margin-left: 0%;
+    width: 90%;
+  }
+/* .contentlogoZillowpantlaPrincipal img{
+    height: 9px;
+    width: 9px;
+    object-fit: cover;
+    border-radius: 9px;
+    width: 100%;
+  } */
+
+  .loro img{
+    height: 29px;
+    width: 29px;
+    object-fit: cover;
+    border-radius: 30px;
+    position: absolute;
+    top:-52%;
+    margin-left: 30%;
+  }
+
+  .comodidad button {
+    width: 100%;
+    border-color: blue;
+    color: blue;
+    background-color: rgb(248, 247, 246);
+  }
+
+  .credencialesDataNew {
+    margin-left: 4%;
+  }
+
+  .credencialesDataNew button {
+    width: 100%;
+    border-color: antiquewhite;
+    background-color: rgb(233, 217, 197);
+  }
+
+  .btnUnoNew {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-left: -3%;
+    margin-top: 8%;
+  }
+
+  .btnDosNew {
+    width: 100%;
+    margin-left: -3%;
+    margin-bottom: 10px;
+  }
+
+  .btnCuatroNew {
+    margin-left: -3%;
+    margin-bottom: 10px;
+  }
+
+  .btnTresNew {
+    margin-left: -3%;
+    width: 500px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .menuCabeza {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(250, 239, 239);
+    position: absolute;
+    z-index: 14;
+  }
+
+  .menuCabeza .salirDataNew {
+    width: auto;
+    color: black;
+    background-color: rgb(250, 239, 239);
+  }
+
+  .cajaButnDataExterna {
+    width: 100%;
+    border-radius: 6px;
+    height: 150px;
+    margin-top: 2.5%;
+  }
+
+  .cajaButnData {
+    margin-left: 18%;
+    margin-top: 7%;
+  }
+
+  .cajaButnData .uno {
+    margin-top: 10%;
+    width: auto;
+    color: blue;
+    border-color: blue;
+    background-color: rgb(252, 251, 250);
+  }
+
+  .cajaButnData .uno:hover {
+    opacity: 0.7;
+  }
+
+  .cajaButnData .dos:hover {
+    opacity: 0.7;
+  }
+
+  .cajaButnData .dos {
+    width: auto;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+  }
+
+  .surgimientoPopBurger {
+    width: 100%;
+    height: 100vh;
+    z-index: 11;
+    position: fixed;
+    top: 0;
+    background-color: rgb(250, 249, 249);
+    overflow-x: hidden;
+  }
+
+  .surgimientoPopBurger .menuGeneral {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 70px;
+    top: 13%;
+  }
+
+  .menu ul li {
+    list-style: none;
+    color: black;
+  }
+
+  .sacarName {
+    color: rgb(46, 43, 43);
+  }
+
+  .logoZillow {
+    display: block;
+    top: -110%;
+    left: 33%;
+    position: absolute;
+  }
+
+  .sacarName:hover {
+    transition: 0.4s;
+    color: blue;
+  }
+
+  .menuAyuda {
+    display: block;
+    position: absolute;
+    /* right: 10%; */
+    margin-left: 6%;
+  }
+
+  .menuHelpTwo {
+    display: block;
+    gap: 24%;
+    margin-left: 4%;
+  }
+
+  .loro img {
+    display: none;
+  }
+
+  .contenedorPopUpLoroHelpAyuda{
+    display: none;
+  }
+
+  .segundoPlanoSacarName {
+    width: 140px;
+    margin-left: -2%;
+  }
+
+  .menuBurger {
+    top: 2%;
+    margin-left: 5%;
+    position: absolute;
+    font-size: 170%;
+  }
+  
+  .cerrarBurger{
+    z-index: 14;
+    position: fixed;
+    color: rgb(3, 3, 3);
+    font-size: 170%;
+    margin-top: 4%;
+    margin-left: 5%;
+  }
+
+  .contenedorBurgerSell{
+    width: 100%;
+    height: 60px;
+    margin-top: 0;
+    background-color: white;
+  }
+
+  .menuBurgerSell {
+    margin-top: 4%;
+    margin-left: 5%;
+    position: absolute;
+    font-size: 170%;
+    z-index: 33;
+  }
+
+  .cerrarBurgerSell{
+    z-index: 14;
+    position: fixed;
+    color: rgb(3, 3, 3);
+    font-size: 170%;
+    margin-top: 4%;
+    margin-left: 5%;
+  }
+
+  .posicionamiento {
+    display: none;
+  }
+
+  .posicionamientoAyuda{
+    display: none;
+  }
+
+  .menuSegundoAyuda ul li {
+    list-style: none;
+    color: black;
+  }
+  .soloParaCelularRutas {
+    width: 180%;
+    margin-left: -15%;
+  }
+  .soloParaCelularRutasArriba {
+    width: 180%;
+    margin-left: -15%;
+    margin-top: -5%;
+  }
+  .soloParaCelularRutasHelAyuda {
+    width: 800px;
+    overflow-x: hidden;
+    margin-left: -7%;
+  }
+  .soloParaCelularHelAyuda {
+    margin-top: -1.9%;
+    width: 180%;
+    margin-left: -15%;
+  }
+  .soloParaCelularRutasMenuTwo {
+    width: 180%;
+    margin-left: -75%;
+  }
+  .soloParaCelularRutasMenuTwoArriba {
+    width: 180%;
+    margin-left: -75%;
+    margin-top: -1.9%;
+  }
+
+  .paraCelularesRent{
+    display: none;
+  }
+
+  .paraCelularesAbajoRent{
+    position: absolute;
+    top: 5%;
+    width: 100%;
+  }
+
+  .ciudad img{
+    width: 100%;
+    margin-bottom: 1%;
+  }
+
+  .ciudadRenderizado img {
+    width: 100%;
+  }
+
+  .IconEmpresa {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 1%;
+  }
+
+  .Zillow {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  .ZillowCelularSell {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    top: 1%;
+  }
+
+  .ZillowCelularSell img{
+    width: 34%;
+  }
+
+  .textFinal {
+    width: 100%;
+    text-align: center;
+    font-size: 70%;
+    font-family: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+  }
+
+  .contenidoAddress {
+    width: 80%;
+    text-align: center;
+    margin-left: 9%;
+  }
+
+  .textFinal p {
+    width: 80%;
+  }
+
+
+
+  .cerrarBurgerPrincipal{
+    position: fixed;
+    z-index: 14;
+    color: rgb(8, 8, 8);
+    font-size: 180%;
+    top: 2%;
+    left: 4%;
+  }
+  
+  .menuBurgerPrincipal{
+    position: absolute;
+    z-index: 9;
+    color: white;
+    font-size: 170%;
+    top: 2%;
+    left: 4%;
+  }
+
+  .cerrarBurgerRent{
+    position: fixed;
+    z-index: 14;
+    color: rgb(8, 8, 8);
+    font-size: 150%;
+    top: 2%;
+    left: 4%;
+  }
+  
+  .menuBurgerRent{
+    position: absolute;
+    z-index: 9;
+    color: rgb(7, 7, 7);
+    font-size: 150%;
+    top: 2%;
+    left: 4%;
+  }
+
+
+  .contentlogoZillow {
+    width: 130px;
+    height: 29px;
+    position: absolute;
+    left: 23%;
+    top: -120%;
+  }
+
+
+  .logoZillow {
+    object-fit: cover;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contentlogoZillowpantlaPrincipal img{
+    position: absolute;
+    z-index: 9;
+    width: 35%;
+    height: 25px;
+    top: 2%;
+  }
+
+  .loroPantallaPrincipal img{
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    right: 5%;
+    top: 2%;
+    position: absolute;
+    border-radius: 55px;
+    z-index: 9;
+  }
+
+  .contenedorPopUpLoroPantalaPrincipal{
+    width: 250px;
+    background-color: rgb(245, 227, 227);
+    position: absolute;
+    top: 7%;
+    right: 4%;
+    z-index: 9;
+    border-radius: 5px;
+  }
+  
+  .contenedorPopUpLoroPantalaPrincipal button{
+    width: 100%;
+    text-align: start;
+    margin-left: -12%;
+    background-color: rgb(245, 227, 227);
+  }
+  
+  .contenedorPopUpLoroPantalaPrincipal button:hover{
+    border-color: rgb(245, 227, 227);
+    font-weight: 900;
+  }
+
+  .imageFondoPrincipal {
+    background-image: url(	https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2023/07/womanonporch_mobile375%402x.webp);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .inputBuscadorGeneral {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 100%;
+  }
+
+  .tipadoLetra {
+    text-align: center;
+    color: white;
+    padding-top: 22.5%;
+    font-size: 178%;
+  }
+
+  .mm {
+    width: 500px;
+    height: 900px;
+  }
+
+  #inputMap {
+    width: 99%;
+    height: 38px;
+    z-index: 9;
+  }
+
+  /* .credencialesGustos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+  } */
+  .contentCarrusel {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .contentScroll {
+    display: flex;
+    overflow-x: hidden;
+    width: 90%;
+    background-color: white;
+    padding-bottom: 4%;
+    padding-top: 1%;
+  }
+
+  .CartasCarrusel img {
+    width: 282px;
+    height: 165px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .CartasCarrusel {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+
+  .control {
+    position: absolute;
+    z-index: 9;
+    top: -25%;
+  }
+
+  .anterior {
+    left: 1%;
+    border-radius: 50px;
+    font-size: 20px;
+    top: 33%;
+    width: 5px;
+    height: 50px;
+    background-color: rgb(199, 199, 241);
+  }
+
+  .anterior i{
+    margin-left: -8px;
+    position: relative;
+  }
+
+  .siguiente {
+    right: 1%;
+    border-radius: 50px;
+    font-size: 20px;
+    top: 33%;
+    width: 5px;
+    height: 49px;
+    background-color: rgb(199, 199, 241);
+  }
+
+  .siguiente i{
+    margin-left: -8px;
+    position: relative;
+  }
+
+  .paradise {
+    margin-top: 10%;
+    margin-left: 2%;
+  }
+
+  .based {
+    margin-top: 0%;
+    margin-left: 2%;
+  }
+
+  .Trending {
+    margin-top: 8%;
+    margin-left: 2%;
+  }
+
+  .most {
+    margin-top: 0%;
+    margin-left: 2%;
+  }
+
+  .heart {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 30px;
+  }
+
+  .heartRed {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 30px;
+    color: red;
+  }
+
+  .contenCardPrincipal {
+    display: block;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-top: 10%;
+    background-color: rgb(209, 209, 228);
+  }
+
+  .buy-home img {
+    width: 100%;
+  }
+
+  .buy-home {
+    margin-top: 3%;
+    width: 94%;
+    margin-left: 3%;
+    height: 480px;
+    object-fit: cover;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .buy-home p {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .buy-home button {
+    border-color: blue;
+    background-color: white;
+    color: blue;
+  }
+
+  .buy-home button:hover {
+    background-color: rgb(51, 51, 238);
+    color: white;
+  }
+
+
+
+
+  .pop-uppInforHome {
+    position: absolute;
+    background-color: rgb(248, 243, 243);
+    width: 100%;
+    height: 95vh;
+    top: 80%;
+    margin-left: 5%;
+    z-index: 10;
+  }
+
+  .pop-uppInforHome .image1 {
+    width: 100%;
+    height: 340px;
+  }
+
+  .imagenes0:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contentImages {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .contentImage2 {
+    width: 25%;
+  }
+
+  .contentImage4 {
+    width: 25%;
+    margin-left: 10px;
+  }
+
+  .contentImages .image2 {
+    height: 166px;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .contentImages .image4 {
+    height: 166px;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .imagenes1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imagenes1:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .imagenes2 {
+    margin-left: 10px;
+  }
+
+  .imagenes2:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .imagenes3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imagenes3:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .imagenes4 {
+    margin-left: 10px;
+  }
+
+  .imagenes4:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+
+  .contentInforHomen {
+    overflow-y: scroll;
+    height: 100%;
+    background-color: rgb(209, 209, 228);
+  }
+
+  .cosasInternas {
+    display: block;
+    justify-content: space-between;
+    padding-left: 2%;
+  }
+
+  .inforHomeData {
+    display: block;
+    gap: 15%;
+  }
+
+  .cajaButnDataExterna {
+    width: 300px;
+    border-radius: 6px;
+    height: 150px;
+    margin-top: 2.5%;
+  }
+
+  .cajaButnData {
+    margin-left: 18%;
+    margin-top: 7%;
+  }
+
+  .cajaButnData .uno {
+    margin-top: 10%;
+    width: 190px;
+    color: blue;
+    border-color: blue;
+    background-color: rgb(252, 251, 250);
+  }
+
+  .cajaButnData .uno:hover {
+    opacity: 0.7;
+  }
+
+  .cajaButnData .dos:hover {
+    opacity: 0.7;
+  }
+
+  .cajaButnData .dos {
+    width: 190px;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+  }
+
+  .credencialesData button {
+    width: 270px;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+  }
+
+  .btnUno {
+    margin-left: 3%;
+  }
+
+  .btnDos {
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
+
+  .btnTres {
+    margin-left: 3%;
+  }
+
+  .btnCuatro {
+    margin-left: 8px;
+    margin-bottom: 4%;
+  }
+
+  .hrData {
+    width: 90%;
+    margin-left: 5%;
+    background-color: black;
+  }
+
+  .encabezado {
+    width: 100%;
+    background-color: rgb(209, 209, 228);
+    position: absolute;
+    z-index: 14;
+  }
+
+  .salirData {
+    background-color: rgb(209, 209, 228);
+    color: black;
+  }
+
+  .velamos {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    margin-left: 2%;
+    width: 96%;
+  }
+
+  .sacarMapCelulares button{
+    z-index: 150;
+    background-color: rgb(250, 248, 248);
+    position: fixed;
+    bottom: 5%;
+  }
+  
+  .sacarMapCelulares{
+    text-align: center;
+    margin-left: -26%;
+  }
+  
+  .contenedorMapGoogleCelulares{
+    width: 100%;
+    position: relative;
+    margin-top: 0%;
+    z-index: 100;
+  }
+
+  .contenedorMapGoogleCelularesBuy{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 26%;
+    z-index: 100;
+  }
+
+  /* sell css celular  */
+  
+  .fondoHome {
+    background-image: url(https://th.bing.com/th/id/OIP.7iCZV-PXwllJatbmfk5hfQHaDw?rs=1&pid=ImgDetMain);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+  }
+  
+  .simpler {
+    color: white;
+    padding-top: 24%;
+    text-align: center;
+    font-family: auto;
+    font-weight: 900;
+    font-size: 65%;
+  }
+
+  .simpler p{
+    font-size: 150%;
+  }
+
+  .contentSellParrafos {
+    display: block;
+    flex-direction:column;
+    justify-content: space-evenly;
+  }
+
+  .contentSellParrafoAbajo {
+    display: block;
+    gap: 20px;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .contentSellParrafoAbajo .contenidouno {
+    margin-left: 5%;
+  }
+
+  .contentSellParrafoAbajo .contenidoDos{
+    margin-left: 5%;
+  }
+
+  .partnerParrafo {
+    font-family: auto;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+  }
+
+  .contentSellParrafoAbajo section {
+    margin-top: 3%;
+    width: 90%;
+    justify-content: flex-start;
+  }
+
+  .parteInternaParrafo {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .imageSellHomeCelular{
+    width: 100%;
+  }
+  
+  .imageSellHomeCelular img{
+    width: 100%;
+  }
+  
+  .imageSellHome img {
+    display: none;
+  }
+  
+  .inputParrafoHome input {
+    margin-top: 3%;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+  }
+  
+  .azulMedioSell {
+    background-color: rgb(214, 233, 245);
+  }
+  
+  .partefinalContentSell {
+    display: block;
+  }
+  
+  .imageSellHomeParteFinal {
+    width: 100%;
+  }
+  
+  .imageSellHomeParteFinal img {
+    width: 100%;
+  }
+
+  .parrafoFina {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .parrafoFina h1 {
+    margin-top: 15%;
+    font-size: 320%;
+    font-family: auto;
+    font-weight: 900;
+  }
+
+  .FinalButton button {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: auto;
+  }
+
+  .FinalButton button:hover {
+    opacity: 0.7;
+  }
+
+  .letraAzulLink {
+    color: blue;
+    font-family: auto;
+  }
+
+  .letraAzulLink:hover {
+    color: black;
+    font-family: auto;
+  }
+
+  .abjuntado {
+    display: block;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 6%;
+  }
+
+  .abjuntado h5 {
+    color: black;
+    font-size: 200%;
+    font-family: auto;
+    font-weight: 600;
+    margin-bottom: 4%;
+    text-align: center;
+  }
+
+  .abjuntado ul {
+    width: 90%;
+    list-style: none;
+    text-align: center;
+  }
+
+  .abjuntado section {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .ciudad {
+    width: 100%;
+    margin-bottom: 1%;
+  }
+
+  .ciudadRenderizado img {
+    width: 100%;
+  }
+
+  .IconEmpresa {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 1%;
+  }
+
+  .textFinal {
+    width: 100%;
+    text-align: center;
+    font-size: 70%;
+    font-family: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+  }
+
+  .textFinal p {
+    width: 70%;
+  }
+
+  /* agen Finder css  */
+
+  .imageContent1 img {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .imageContent1 {
+    margin-bottom: 3%;
+    position: relative;
+  }
+
+  .imageContent1 h1 {
+    width: 60%;
+    margin-left: 8%;
+    font-family: auto;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 10%;
+    font-size: 142%;
+  }
+
+  .imageContent1 p {
+    width: 70%;
+    margin-left: 8%;
+    font-family: auto;
+    color: white;
+    position: absolute;
+    top: 30%;
+  }
+
+  .imageContent1 button {
+    background-color: rgb(82, 82, 240);
+    color: white;
+    border-radius: 9px;
+    margin-left: 8%;
+    position: absolute;
+    top: 73%;
+    border-color: rgb(82, 82, 240);
+  }
+
+  .imageContent1 button:hover {
+    margin-left: 8%;
+    border-color: blue;
+    background-color: blue;
+  }
+
+  .contenido {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .contenido .uno {
+    margin-top: 3%;
+  }
+
+  .contenido p {
+    width: 100%;
+    font-size: 80%;
+    font-family: auto;
+  }
+
+  .contenido .tamosDentro {
+    font-size: 250%;
+  }
+
+  .contenidoDeCuatro {
+    display: block;
+    gap: 20px;
+    width: 100%;
+    background-color: rgb(198, 233, 221);
+    margin-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+  }
+
+  .contenidoDeCuatro ul li {
+    list-style: none;
+    margin-top: 4%;
+  }
+
+  .contenidoAddress {
+    text-align: center;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  /* Home Loans css  */
+
+  .HomenLoansuno img {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+  }
+
+  .contentWhite {
+    background-color: rgb(252, 251, 251);
+    width: 90%;
+    height: 75vh;
+    position: absolute;
+    top: 11%;
+    left: 5%;
+    text-align: center;
+  }
+
+  .contentWhite h1 {
+    font-family: auto;
+    font-weight: 800;
+    font-size: 205%;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 23%;
+  }
+
+  .contentWhite p {
+    font-family: auto;
+    font-weight: 100;
+    font-size: 100%;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 17%;
+    margin-bottom: 4%;
+  }
+
+  .contentWhite button {
+    font-family: auto;
+    font-weight: 300;
+    font-size: 100%;
+    width: 80%;
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    border-color: blue;
+    margin-bottom: 1%;
+  }
+
+  .contentWhite button:hover {
+    opacity: 0.7;
+  }
+
+  .contentWhite b {
+    color: black;
+    text-align: center;
+    font-size: larger;
+  }
+
+  .contentWhite b:hover {
+    color: blue;
+  }
+
+  .HomeLoansDos h3 {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 11%;
+    font-family: auto;
+    font-weight: 800;
+    font-size: 250%;
+  }
+
+  .HomeLoansDos .juntoAH3 {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .cuadroCalculo {
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .calculoUno {
+    display: block;
+    justify-content: space-evenly;
+  }
+
+  .contenedorimage {
+    width: 300px;
+  }
+
+  .calculoUno img {
+    width: 100%;
+  }
+
+  .contenedorTexto {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  .calculoUno p {
+    font-size: 100%;
+    font-family: auto;
+    font-weight: 100;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .calculoUno b {
+    font-size: 200%;
+    font-family: auto;
+    font-weight: 700;
+  }
+
+
+  .calculoUno div .uno{
+    width: 90%;
+    margin-left: 5%;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    font-family: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .calculoDos .uno {
+    display: none;
+  }
+
+  .calculoDos .uno:hover {
+    opacity: 0.7;
+  }
+
+  .calculoDos div .dos {
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    font-family: auto;
+    margin-bottom: 5%;
+  }
+
+  .calculoDos .dos:hover {
+    opacity: 0.7;
+  }
+
+  .HomenLoansTres {
+    width: 100%;
+  }
+
+  .HomenLoansTres .chonchito {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+  }
+
+  .chonchito section {
+    margin-left: 5%;
+    margin-top: 15%;
+    text-align: center;
+  }
+
+  .HomenLoansTres .chonchito section b {
+    font-family: auto;
+    font-size: 150%;
+    font-weight: 700;
+  }
+
+  .HomenLoansTres section p {
+    padding-bottom: 4%;
+    font-family: auto;
+    font-size: 100%;
+    font-weight: 100;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .HomenLoansTres section button {
+    width: 60%;
+    border-color: blue;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+  }
+
+  .chonchito div {
+    display: none;
+  }
+
+  .chonchito div img {
+    display: none;
+  }
+
+  .imageChochonchitoCelulars{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 15%;
+  }
+
+  .imageChochonchitoCelulars img{
+    width: 100%;
+  }
+
+  .HommeLoansImage{
+    overflow-x: hidden;
+  }
+
+  .HommeLoansImage img {
+    width: 230%;
+  }
+
+  .listaHomeLoans {
+    display: block;
+  }
+
+  .listaHomeLoans ul li {
+    list-style: none;
+    color: black;
+    padding-bottom: 4%;
+  }
+
+  .listaHomeLoans .ListaHomeUno li {
+    color: blue;
+  }
+
+  .listaHomeLoans .ListaHomeUno li:hover {
+    opacity: 0.7;
+  }
+
+  .HomenLoansCuatro {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .HomenLoansCuatro .addressHommeLoans {
+    width: 300px;
+  }
+
+  .HomenLoansCuatro .addressHommeLoans p {
+    width: 100%;
+    color: black;
+    margin-left: 11%;
+  }
+
+  /* Manage Rentals css */
+
+  .manageRentalUno .contentImageManage img {
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .contentImageManage h2 {
+    width: 80%;
+    position: absolute;
+    color: white;
+    top: 11%;
+    left: 10%;
+    font-family: auto;
+    font-weight: 700;
+    font-size: 170%;
+    text-align: center;
+  }
+
+  .contentImageManage p {
+    width: 80%;
+    position: absolute;
+    color: white;
+    margin-top: -55%;
+    left: 10%;
+    font-family: auto;
+    font-weight: 100;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  .contentImageManage button {
+    width: 80%;
+    position: absolute;
+    color: white;
+    background-color: blue;
+    top: 40%;
+    left: 10%;
+    font-family: auto;
+    font-weight: 500;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  .contentImageManage button:hover {
+    opacity: 0.7;
+  }
+
+  .manageRentalDos {
+    display: block;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .manageImageUno img {
+    width: 40%;
+  }
+
+  .manageImageUno {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .manageImageUno h5 {
+    font-family: auto;
+    font-weight: 600;
+    font-size: 120%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .manageImageUno p {
+    font-family: auto;
+    font-weight: 100;
+    font-size: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .manageColado {
+    margin-top: 5%;
+  }
+
+  .lineaHr {
+    margin-left: 15%;
+  }
+
+  /* advertise css */
+
+  .adveriseCajaUno img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5%;
+  }
+
+  .cartaUno {
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .cartaUno:hover {
+    width: 28%;
+    transition: 0.8s;
+  }
+
+  .cartaUno button {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    margin-top: 6%;
+    margin-bottom: 8%;
+  }
+
+  .cartaUno button:hover {
+    opacity: 0.7;
+  }
+
+  .cartaUno b {
+    font-size: 150%;
+    font-family: auto;
+    font-weight: 700;
+  }
+
+  .contentAdvertise .one {
+    text-align: center;
+    font-family: auto;
+    font-weight: 700;
+    font-size: 290%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  .contentAdvertise .two {
+    text-align: center;
+    font-family: auto;
+    font-weight: 400;
+    font-size: 120%;
+    margin-bottom: 1%;
+  }
+
+  .contentAdvertise .three {
+    text-align: center;
+    font-family: auto;
+    font-weight: 600;
+    font-size: 160%;
+    margin-bottom: 5%;
+  }
+
+  /* help css  */
+
+  .helpUno img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .helpInput {
+    width: 80%;
+    height: 38px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+
+  .helpInput input {
+    width: 100%;
+    border-radius: 19px;
+    height: 100%;
+    border-top: white;
+  }
+
+  .helpDos {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  .helpCajaUno {
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  .helpCajaUno div {
+    width: 80%;
+    height: 70px;
+    margin-left: 10%;
+    margin-top: 7%;
+    object-fit: cover;
+  }
+
+
+  .helpCajaUno div button {
+    background-color: white;
+    border-color: blue;
+    color: blue;
+    width: 100%;
+    height: 100%;
+  }
+
+  .helpCajaUno div button:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.7s;
+  }
+
+  .helpCajaUnoEspecial {
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  .helpCajaUnoEspecial div {
+    width: 80%;
+    margin-left: 10%;
+    height: 70px;
+    margin-top: 5%;
+    object-fit: cover;
+  }
+
+  .helpCajaUnoEspecial button {
+    width: 100%;
+    background-color: white;
+    border-color: blue;
+    color: blue;
+    height: 100%;
+  }
+
+  .helpCajaUnoEspecial button:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.7s;
+  }
+
+  .seAcosto {
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .conjuntofinal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .conjuntofinal .uno:hover {
+    color: blue;
+    transition: 0.6;
+  }
+
+  .conjuntofinal .dos:hover {
+    color: blue;
+    transition: 0.6;
+  }
+
+  .conjuntofinal .tres:hover {
+    color: blue;
+    transition: 0.6;
+  }
+
+}
+
+
+@media (min-width: 730px) and (max-width: 1013px) {
+  .menuGeneral {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .cerrarBurgerPrincipal{
+    display: none;
+  }
+
+  .movilesAdaptivilidadFlechas{
+    display: none;
+  }
+
+  .menu ul li {
+    list-style: none;
+    color: black;
+  }
+
+  .sacarName {
+    color: rgb(46, 43, 43);
+  }
+
+  .sacarName:hover {
+    transition: 0.4s;
+    color: blue;
+  }
+
+  .menuAyuda {
+    display: flex;
+    position: absolute;
+    right: 10%;
+  }
+
+  .menuHelpTwo {
+    display: flex;
+    gap: 24%;
+  }
+
+  .loro img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 55px;
+  }
+
+  .contenedorPopUpLoro {
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 100%;
+    z-index: 9;
+    right: -87px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+  .contenedorPopUpLoro ul button {
+    list-style: none;
+    margin-left: -9%;
+    width: 100%;
+    background-color: white;
+    border-color: white;
+    text-align: start;
+  }
+
+  .contenedorPopUpLoro ul button:hover {
+    font-weight: 800;
+  }
+
+  .segundoPlanoSacarName {
+    width: 140px;
+  }
+
+  .menu {
+    margin-top: 0;
+  }
+  .menuSegundoAyuda ul li {
+    list-style: none;
+    color: black;
+  }
+
+  .contentlogoZillow {
+    width: 130px;
+    height: 29px;
+    position: absolute;
+    left: 48%;
+  }
+
+  .contentlogoZillowpantlaPrincipal{
+    display: none;
+  }
+
+  .loroPantallaPrincipal img {
+    display: none;
+  }
+
+  .menuBurgerPrincipal{
+    display: none;
+  }
+
+  .menuBurger{
+    display: none;
+  }
+
+  .cerrarBurger{
+    display: none;
+  }
+
+  .cerrarBurgerRent{
+    display: none;
+  }
+
+  .menuBurgerRent{
+    display: none;
+  }
+
+  .loroCelular{
+    display: none;
+  }
+
+  .logoZillow {
+    object-fit: cover;
+    top: 3%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mapGooglrHrCelular{
+    display: none;
+  }
+
+  .soloParaCelularRutasArriba{
+    display: none;
+  }
+
+  .soloParaCelularRutas{
+    display: none;
+  }
+
+  .soloParaCelularHelAyuda{
+    display: none;
+  }
+
+  .soloParaCelularRutasHelAyuda{
+    display: none;
+  }
+
+  .soloParaCelularRutasMenuTwo{
+    display: none;
+  }
+
+  .soloParaCelularRutasMenuTwoArriba{
+    display: none;
+  }
+
+  .paraCelularesRent{
+    width: 100%;
+  }
+
+  .paraCelularesAbajoRent{
+    display: none;
+  }
+
+  .imageFondoPrincipal {
+    background-image: url(https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2023/07/1920w_nationalbrand.webp);
+    width: 100%;
+    height: 403px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .inputBuscadorGeneral {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 50%;
+    height: 70px;
+    border-radius: 5px;
+    font-size: 100%;
+  }
+
+  .tipadoLetra {
+    text-align: center;
+    color: white;
+    padding-top: 7.5%;
+    font-size: 220%;
+  }
+
+  .mm {
+    width: 500px;
+    height: 900px;
+  }
+
+  #inputMap {
+    width: 99%;
+    height: 38px;
+    z-index: 9;
+  }
+
+  .credencialesGustos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+  }
+
+  hr {
+    margin: 0.5%;
+  }
+
+  .pop-upMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .posicionamiento {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    width: 290vh;
+    overflow: hidden;
+    left: -300%;
+    padding-top: 45%;
+    height: 50vh;
+    z-index: 19;
+  }
+
+  .posicionamientoAyuda {
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    width: 40vh;
+    overflow: hidden;
+    left: 0;
+    padding-top: 45%;
+    height: 60vh;
+    z-index: 9;
+    overflow-y: scroll;
+  }
+
+  .pop-up {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .listBuy ul li {
+    color: blue;
+  }
+
+  .listBuy ul li:hover {
+    color: black;
+    cursor: context-menu;
+  }
+
+  .listFinder ul li {
+    color: blue;
+  }
+
+  .listFinder ul li:hover {
+    color: black;
+    cursor: context-menu;
+  }
+
+  .lineaVertical {
+    width: 0.1%;
+    height: 200px;
+    margin: 0;
+    background-color: black;
+    z-index: 9;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+
+  .lineaVerticalExtencion {
+    width: 0.1%;
+    height: 200px;
+    margin: 0;
+    background-color: black;
+    z-index: 9;
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 1%;
+  }
+
+  .contenedorListBuy {
+    display: flex;
+    margin-left: 14%;
+  }
+
+  .titleList {
+    margin-left: 11%;
+    margin-top: 5%;
+    margin-bottom: 9%;
+    color: black;
+  }
+
+  .contenedorListRent {
+    display: flex;
+    margin-left: 12%;
+  }
+
+  .contenedorListSell {
+    display: flex;
+    margin-left: 6%;
+  }
+
+  .contenedorListLoans {
+    display: flex;
+    margin-left: 15%;
+  }
+
+  .contenedorListLoans ul li p {
+    width: 150%;
+  }
+
+  .contenedorListFinder {
+    display: flex;
+    margin-left: 8%;
+  }
+
+  .contenedorListFinder ul li p {
+    width: 140%;
+  }
+
+  .listFinder {
+    gap: 10px;
+  }
+
+  .titleListManage {
+    margin-top: -19%;
+    margin-left: 5%;
+  }
+
+  .vimosHr {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+  }
+  /* Buy y Rent */
+  .contentHomeBien {
+    height: 76vh;
+    width: 52%;
+    position: absolute;
+    top: 21%;
+    right: 0;
+    background-color: white;
+    overflow-y: scroll;
+  }
+
+  .contentRent {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .contentHomeMuestra {
+    height: auto;
+  }
+
+  .contentBuy {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .cartasBienes {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cartaNueva {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 270px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+
+  .cartaNueva p {
+    font-size: 80%;
+  }
+
+  .bienesImage1 {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .cartas {
+    width: 50%;
+  }
+
+  .cajaBien {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cartas img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  /*end Buy and Rent */
+
+  .btnsHome {
+    width: 110px;
+    background-color: white;
+    border: none;
+  }
+
+  .btnsHome:hover {
+    color: rgb(102, 102, 223);
+    transition: 0.5s;
+  }
+
+  .apply {
+    width: 80%;
+    background-color: blue;
+    margin-left: 10%;
+    color: white;
+  }
+
+  .contBtnsHome {
+    margin-top: 6%;
+
+    z-index: 5;
+    position: absolute;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    align-self: flex-start;
+  }
+
+  .status {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgb(64, 99, 218);
+    margin-left: 0.8%;
+  }
+
+  .status p {
+    margin: 0;
+  }
+
+  .controlPrecio {
+    z-index: 8;
+    position: absolute;
+    top: 25%;
+    left: 26%;
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+  }
+
+  .abrir {
+    z-index: 8;
+    position: absolute;
+    left: 347px;
+    border-color: blue;
+    background-color: white;
+  }
+
+  .abrir p {
+    margin: 0;
+  }
+
+  .priceRange {
+    padding-top: 5%;
+    height: 50px;
+    width: 100%;
+    background-color: beige;
+  }
+
+  .cardCost {
+    display: flex;
+    padding-bottom: 8%;
+    padding-top: 7%;
+    gap: 15px;
+    margin-left: 6%;
+    padding-right: 1.5%;
+  }
+
+  .cuadroElegir {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    top: 25%;
+    left: 469px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .applyParaEligir {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+
+  .Bedrooms {
+    margin-left: 263px;
+    position: absolute;
+  }
+
+  .Bedrooms button {
+    border-color: blue;
+  }
+
+  .Numberbedrooms {
+    background-color: rgb(240, 214, 214);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 50px;
+  }
+
+  .paraEligir {
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    display: flex;
+    background-color: rgb(240, 214, 214);
+    gap: 1px;
+    border-radius: 9px;
+    width: 90%;
+  }
+
+  .paraEligir p {
+    height: 50px;
+    width: 2%;
+    background-color: black;
+    margin: 0;
+  }
+
+  .paraEligir button {
+    width: 16%;
+    background-color: rgb(240, 214, 214);
+  }
+
+  #minium {
+    width: 100px;
+  }
+
+  #maximum {
+    width: 100px;
+  }
+
+  .contentCarrusel {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .contentScroll {
+    display: flex;
+    overflow-x: hidden;
+    width: 80%;
+    background-color: white;
+    padding-bottom: 4%;
+    padding-top: 1%;
+  }
+
+  .CartasCarrusel img {
+    width: 350px;
+    height: 165px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .CartasCarrusel {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+
+  .control {
+    position: absolute;
+    z-index: 9;
+    top: -25%;
+  }
+
+  .anterior {
+    right: 120px;
+    border-radius: 50px;
+    font-size: 20px;
+    top: -18%;
+  }
+
+  .siguiente {
+    right: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    top: -18%;
+  }
+
+  .paradise {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .based {
+    margin-top: 0%;
+    margin-left: 10%;
+  }
+
+  .Trending {
+    margin-top: 0;
+    margin-left: 10%;
+  }
+
+  .most {
+    margin-top: 0%;
+    margin-left: 10%;
+  }
+
+  .heart {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 30px;
+  }
+
+  .heartRed {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 30px;
+    color: red;
+  }
+
+  .contenCardPrincipal {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    background-color: rgb(209, 209, 228);
+  }
+
+  .buy-home img {
+    width: 100%;
+  }
+
+  .buy-home {
+    margin-top: 3%;
+    width: 350px;
+    height: 480px;
+    object-fit: cover;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .buy-home p {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .buy-home:hover {
+    margin-top: 40px;
+    transition: 1s ease;
+    width: 365px;
+    height: 480px;
+  }
+
+  .buy-home button {
+    border-color: blue;
+    background-color: white;
+    color: blue;
+  }
+
+  .buy-home button:hover {
+    background-color: rgb(51, 51, 238);
+    color: white;
+  }
+
+  .pop-uppInforHome {
+    position: absolute;
+    background-color: rgb(248, 243, 243);
+    width: 90%;
+    height: 95vh;
+    top: 80%;
+    margin-left: 5%;
+    z-index: 10;
+  }
+
+  .pop-uppInforHome .image1 {
+    width: 100%;
+    height: 340px;
+  }
+
+  .imagenes0:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contentImages {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .contentImage2 {
+    width: 25%;
+  }
+
+  .contentImage4 {
+    width: 25%;
+    margin-left: 10px;
+  }
+
+  .contentImages .image2 {
+    height: 166px;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .contentImages .image4 {
+    height: 166px;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .imagenes1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imagenes1:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .imagenes2 {
+    margin-left: 10px;
+  }
+
+  .imagenes2:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .imagenes3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .imagenes3:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .imagenes4 {
+    margin-left: 10px;
+  }
+
+  .imagenes4:hover {
+    transition: 0.5s;
+    opacity: 0.7;
+  }
+
+  .contentInforHomen {
+    overflow-y: scroll;
+    height: 100%;
+    background-color: rgb(209, 209, 228);
+  }
+
+  .dataHomePopUp {
+    display: flex;
+    position: relative;
+    margin-top: 8%;
+  }
+
+  .cosasInternas {
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+    padding-left: 60%;
+  }
+
+  .valorDolar p {
+    width: 300%;
+  }
+
+  .cosasInternas p {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .inforHomeData {
+    display: flex;
+    justify-content: space-around;
+    gap: 15%;
+  }
+
+  .cajaButnDataExterna {
+    width: 300px;
+    border-radius: 6px;
+    height: 150px;
+    margin-top: 2.5%;
+  }
+
+  .cajaButnData {
+    margin-left: 18%;
+    margin-top: 7%;
+  }
+
+  .cajaButnData .uno {
+    margin-top: 10%;
+    width: 190px;
+    color: blue;
+    border-color: blue;
+    background-color: rgb(252, 251, 250);
+  }
+
+  .cajaButnData .uno:hover {
+    opacity: 0.7;
+  }
+
+  .cajaButnData .dos:hover {
+    opacity: 0.7;
+  }
+
+  .cajaButnData .dos {
+    width: 190px;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+  }
+
+  .credencialesData button {
+    width: 270px;
+    border-color: antiquewhite;
+    background-color: antiquewhite;
+  }
+
+  .btnUno {
+    margin-left: 3%;
+  }
+
+  .btnDos {
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
+
+  .btnTres {
+    margin-left: 3%;
+  }
+
+  .btnCuatro {
+    margin-left: 8px;
+    margin-bottom: 4%;
+  }
+
+  .hrData {
+    width: 90%;
+    margin-left: 5%;
+    background-color: black;
+  }
+
+  .encabezado {
+    width: 100%;
+    background-color: rgb(209, 209, 228);
+    position: absolute;
+    z-index: 14;
+  }
+
+  .salirData {
+    background-color: rgb(209, 209, 228);
+    color: black;
+  }
+
+  .velamos {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    margin-left: -2%;
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(250, 239, 239);
+    padding: 20px;
+    z-index: 9;
+    height: 97vh;
+    width: 90%;
+  }
+
+  .popup button {
+    z-index: 9;
+    background-color: red;
+    width: 10%;
+  }
+
+  .contentVisible {
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .contenedorVisible0 {
+    object-fit: cover;
+    width: 430px;
+    height: 390px;
+  }
+
+  .visible1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .visible1:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contenedorVisible2 {
+    width: 317px;
+    height: 190px;
+    /* display: flex; */
+  }
+
+  .visible2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .visible2:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .visible3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+
+  .visible3:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contenedorVisible4 {
+    width: 317px;
+    height: 190px;
+    /* display: flex; */
+  }
+
+  .visible4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .visible4:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .visible5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 20px;
+  }
+
+  .visible5:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  .contentenedorEjecucuionBelleza {
+    overflow-y: scroll;
+    height: 100%;
+    width: 102%;
+  }
+
+  .contentVisible {
+    margin-left: 5%;
+  }
+
+  .comodidad {
+    width: 100%;
+  }
+
+  .comodidad button {
+    width: 300px;
+    border-color: blue;
+    color: blue;
+    background-color: rgb(248, 247, 246);
+  }
+
+  .credencialesDataNew {
+    display: flex;
+    margin-left: 4%;
+  }
+
+  .credencialesDataNew button {
+    width: 100%;
+    border-color: antiquewhite;
+    background-color: rgb(233, 217, 197);
+  }
+
+  .btnUnoNew {
+    width: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .btnCuatroNew {
+    margin-left: 10px;
+  }
+
+  .btnTresNew {
+    width: 500px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .menuCabeza {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(250, 239, 239);
+    position: absolute;
+    z-index: 14;
+  }
+
+  .menuCabeza .salirDataNew {
+    width: 200px;
+    color: black;
+    background-color: rgb(250, 239, 239);
+  }
+
+  .dolares {
+    width: 150px;
+    height: 200px;
+    overflow-y: scroll;
+    z-index: 19;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: 5%;
+  }
+
+  .cobertura {
+    height: 100%;
+  }
+
+  .corazon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    margin: 1%;
+  }
+
+  .corazon-activo {
+    color: red;
+  }
+
+  /* estilos css de Sell */
+
+  .contenedorBurgerSell{
+    display: none;
+  }
+
+  .menuBurgerSell{
+    display: none;
+  }
+
+  .cerrarBurgerSell{
+    display: none;
+  }
+
+  .ZillowCelularSell{
+    display: none;
+  }
+
+  .ZillowCelularSell img{
+    display: none;
+  }
+
+  .loroCelularSell img{
+    display: none;
+  }
+
+  .contenedorPopUpLoroSell{
+    display: none;
+  }
+
+  .contenedorPopUpLoroSell button{
+    display: none;
+  }
+
+  .fondoHome {
+    background-image: url(https://th.bing.com/th/id/OIP.7iCZV-PXwllJatbmfk5hfQHaDw?rs=1&pid=ImgDetMain);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+  }
+
+  .simpler {
+    color: white;
+    padding-top: 13%;
+    text-align: center;
+    font-family: auto;
+    font-weight: 900;
+  }
+
+  .contentSellParrafos {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contentSellParrafoAbajo {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 5%;
+  }
+
+  .contentSellParrafoAbajo .contenidouno {
+    margin-left: 8%;
+  }
+
+  .partnerParrafo {
+    font-family: auto;
+    font-weight: 900;
+    margin-top: 11%;
+  }
+
+  .contentSellParrafoAbajo section {
+    margin-top: 3%;
+    width: 29%;
+    justify-content: flex-start;
+  }
+
+  .parteInternaParrafo {
+    width: 50%;
+  }
+
+  .imageSellHome {
+    width: 350px;
+    align-self: center;
+  }
+
+  .imageSellHome img {
+    width: 100%;
+  }
+
+  .inputParrafoHome input {
+    margin-top: 3%;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+  }
+
+  .azulMedioSell {
+    background-color: rgb(214, 233, 245);
+  }
+
+  .partefinalContentSell {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .imageSellHomeCelular{
+    display: none;
+  }
+
+  .imageSellHomeParteFinal {
+    width: 500px;
+    align-items: center;
+  }
+
+  .imageSellHomeParteFinal img {
+    width: 100%;
+  }
+
+  .parrafoFina {
+    width: 50%;
+  }
+
+  .parrafoFina h1 {
+    margin-top: 15%;
+    font-size: 320%;
+    font-family: auto;
+    font-weight: 900;
+  }
+
+  .FinalButton button {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: auto;
+  }
+
+  .FinalButton button:hover {
+    opacity: 0.7;
+  }
+
+  .letraAzulLink {
+    color: blue;
+    font-family: auto;
+  }
+
+  .letraAzulLink:hover {
+    color: black;
+    font-family: auto;
+  }
+
+  .abjuntado {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 6%;
+  }
+
+  .abjuntado h5 {
+    color: black;
+    font-size: 200%;
+    font-family: auto;
+    font-weight: 600;
+    margin-bottom: 4%;
+  }
+
+  .abjuntado ul {
+    width: 40%;
+  }
+
+  .abjuntado section {
+    width: 40%;
+  }
+
+  .ciudad {
+    width: 100%;
+    margin-bottom: 1%;
+  }
+
+  .ciudadRenderizado img {
+    width: 100%;
+  }
+
+  .IconEmpresa {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 1%;
+  }
+
+  .Zillow {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+
+  .textFinal {
+    width: 100%;
+    text-align: center;
+    font-size: 70%;
+    font-family: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+  }
+
+  .textFinal p {
+    width: 40%;
+  }
+
+  /* Home Loans css */
+
+  .imageContent1 img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .imageContent1 {
+    margin-bottom: 3%;
+    position: relative;
+  }
+
+  .imageContent1 h1 {
+    width: 40%;
+    margin-left: 8%;
+    font-family: auto;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 22%;
+  }
+
+  .imageContent1 p {
+    width: 50%;
+    margin-left: 8%;
+    font-family: auto;
+    color: white;
+    position: absolute;
+    top: 55%;
+  }
+
+  .imageContent1 button {
+    background-color: rgb(82, 82, 240);
+    color: white;
+    border-radius: 9px;
+    margin-left: 8%;
+    position: absolute;
+    top: 73%;
+    border-color: rgb(82, 82, 240);
+  }
+
+  .imageContent1 button:hover {
+    margin-left: 8%;
+    border-color: blue;
+    background-color: blue;
+  }
+
+  .contenido {
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  .contenido .uno {
+    margin-top: 3%;
+  }
+
+  .contenido p {
+    width: 80%;
+    font-size: 80%;
+    font-family: auto;
+  }
+
+  .contenido .tamosDentro {
+    font-size: 250%;
+  }
+
+  .contenidoDeCuatro {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    background-color: rgb(198, 233, 221);
+    margin-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+  }
+
+  .contenidoDeCuatro ul li {
+    list-style: none;
+    margin-top: 4%;
+  }
+
+  .contenidoAddress {
+    text-align: center;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  /* Home Loans css  */
+
+  .HomenLoansuno img {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+  }
+
+  .contentWhite {
+    background-color: rgb(252, 251, 251);
+    width: 70%;
+    height: 75vh;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    text-align: center;
+  }
+
+  .contentWhite h1 {
+    font-family: auto;
+    font-weight: 800;
+    font-size: 300%;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 6%;
+  }
+
+  .contentWhite p {
+    font-family: auto;
+    font-weight: 100;
+    font-size: 100%;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+
+  .contentWhite button {
+    font-family: auto;
+    font-weight: 300;
+    font-size: 100%;
+    width: 30%;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    border-color: blue;
+    margin-bottom: 1%;
+  }
+
+  .contentWhite button:hover {
+    opacity: 0.7;
+  }
+
+  .contentWhite b {
+    color: black;
+    text-align: center;
+  }
+
+  .contentWhite b:hover {
+    color: blue;
+  }
+
+  .HomeLoansDos h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    font-family: auto;
+    font-weight: 800;
+    font-size: 250%;
+  }
+
+  .HomeLoansDos .juntoAH3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .cuadroCalculo {
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .calculoUno {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contenedorimage {
+    width: 300px;
+  }
+
+  .calculoUno img {
+    width: 100%;
+  }
+
+  .contenedorTexto {
+    width: 40%;
+    padding-top: 5%;
+  }
+
+  .calculoUno p {
+    font-size: 100%;
+    font-family: auto;
+    font-weight: 100;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .calculoUno b {
+    font-size: 200%;
+    font-family: auto;
+    font-weight: 700;
+  }
+
+  .calculoDos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .calculoDos div {
+    width: 300px;
+  }
+
+  .calculoDos .uno {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    font-family: auto;
+  }
+
+  .calculoDos .uno:hover {
+    opacity: 0.7;
+  }
+
+  .calculoDos .dos {
+    width: 100%;
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    font-family: auto;
+  }
+
+  .calculoDos .dos:hover {
+    opacity: 0.7;
+  }
+
+  .HomenLoansTres {
+    width: 100%;
+  }
+
+  .HomenLoansTres .chonchito {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+  }
+
+  .chonchito section {
+    margin-left: 8%;
+    margin-top: 5%;
+  }
+
+  .HomenLoansTres .chonchito section b {
+    font-family: auto;
+    font-size: 200%;
+    font-weight: 700;
+    width: 20%;
+  }
+
+  .HomenLoansTres section p {
+    padding-bottom: 4%;
+    font-family: auto;
+    font-size: 100%;
+    font-weight: 100;
+    width: 55%;
+  }
+
+  .HomenLoansTres section button {
+    width: 60%;
+    border-color: blue;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+  }
+
+  .chonchito div {
+    width: 300px;
+    margin-top: 3%;
+  }
+
+  .chonchito div img {
+    width: 100%;
+  }
+
+  .HommeLoansImage img {
+    width: 100%;
+  }
+
+  .listaHomeLoans {
+    display: flex;
+  }
+
+  .listaHomeLoans ul li {
+    list-style: none;
+    color: black;
+    padding-bottom: 4%;
+  }
+
+  .listaHomeLoans .ListaHomeUno li {
+    color: blue;
+  }
+
+  .listaHomeLoans .ListaHomeUno li:hover {
+    opacity: 0.7;
+  }
+
+  .HomenLoansCuatro {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .HomenLoansCuatro .addressHommeLoans {
+    width: 300px;
+  }
+
+  .HomenLoansCuatro .addressHommeLoans p {
+    width: 100%;
+    color: black;
+  }
+
+  /* Manage Rentals css */
+
+  .manageRentalUno .contentImageManage img {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .contentImageManage h2 {
+    width: 50%;
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 25%;
+    font-family: auto;
+    font-weight: 700;
+    font-size: 290%;
+    text-align: center;
+  }
+
+  .contentImageManage p {
+    width: 50%;
+    position: absolute;
+    color: white;
+    top: 55%;
+    left: 25%;
+    font-family: auto;
+    font-weight: 100;
+    font-size: 130%;
+    text-align: center;
+  }
+
+  .contentImageManage button {
+    width: 30%;
+    position: absolute;
+    color: white;
+    background-color: blue;
+    top: 75%;
+    left: 35%;
+    font-family: auto;
+    font-weight: 500;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  .contentImageManage button:hover {
+    opacity: 0.7;
+  }
+
+  .manageRentalDos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .manageImageUno img {
+    width: 40%;
+  }
+
+  .manageImageUno {
+    width: 20%;
+  }
+
+  .manageImageUno h5 {
+    font-family: auto;
+    font-weight: 600;
+    font-size: 120%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .manageImageUno p {
+    font-family: auto;
+    font-weight: 100;
+    font-size: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .manageColado {
+    margin-top: 5%;
+  }
+
+  .lineaHr {
+    margin-left: 15%;
+  }
+
+  /* advertise css */
+
+  .adveriseCajaUno {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+  }
+
+  .adveriseCajaUno img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5%;
+  }
+
+  .cartaUno {
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .cartaUno:hover {
+    width: 28%;
+    transition: 0.8s;
+  }
+
+  .cartaUno button {
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    margin-top: 6%;
+    margin-bottom: 8%;
+  }
+
+  .cartaUno button:hover {
+    opacity: 0.7;
+  }
+
+  .cartaUno b {
+    font-size: 150%;
+    font-family: auto;
+    font-weight: 700;
+  }
+
+  .contentAdvertise .one {
+    text-align: center;
+    font-family: auto;
+    font-weight: 700;
+    font-size: 290%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
+  .contentAdvertise .two {
+    text-align: center;
+    font-family: auto;
+    font-weight: 400;
+    font-size: 120%;
+    margin-bottom: 1%;
+  }
+
+  .contentAdvertise .three {
+    text-align: center;
+    font-family: auto;
+    font-weight: 600;
+    font-size: 160%;
+    margin-bottom: 5%;
+  }
+
+  /* help css  */
+
+  .helpUno img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .helpInput {
+    width: 40%;
+    height: 38px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+
+  .helpInput input {
+    width: 100%;
+    border-radius: 19px;
+    height: 100%;
+    border-top: white;
+  }
+
+  .helpDos {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  .helpCajaUno {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 17px;
+    margin-top: 2%;
+  }
+
+  .helpCajaUno div {
+    width: 25%;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .helpCajaUno div button {
+    background-color: white;
+    border-color: blue;
+    color: blue;
+    width: 100%;
+    height: 100%;
+  }
+
+  .helpCajaUno div button:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.7s;
+  }
+
+  .helpCajaUnoEspecial {
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  .helpCajaUnoEspecial div {
+    width: 77%;
+    height: 70px;
+    object-fit: cover;
+  }
+
+  .helpCajaUnoEspecial button {
+    width: 100%;
+    background-color: white;
+    border-color: blue;
+    color: blue;
+    margin-left: 15%;
+    height: 100%;
+  }
+
+  .helpCajaUnoEspecial button:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.7s;
+  }
+
+  .seAcosto {
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .conjuntofinal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .conjuntofinal .uno:hover {
+    color: blue;
+    transition: 0.6;
+  }
+
+  .conjuntofinal .dos:hover {
+    color: blue;
+    transition: 0.6;
+  }
+
+  .conjuntofinal .tres:hover {
+    color: blue;
+    transition: 0.6;
+  }
+
+  .sacarMapCelulares button{
+    display: none;
+  }
+}
