@@ -1,39 +1,34 @@
-export default function ListFinder () {
+export default function ListFinder() {
+  return (
+    <div className="w-full max-w-4xl bg-white p-8 rounded-b-2xl shadow-xl flex flex-col md:flex-row gap-12">
 
-    return(
-        <div className="contenedorListFinder">
-            <div>
-                <h6 className="titleList">Looking for pros?</h6>
-                <div className="pop-up listFinder">
-                    <ul>
-                        <li><p> Real estate agents </p></li>
-                        <li> <p> Property managers </p> </li>
-                        <li> <p> Home inspectors </p> </li>
-                        <li> <p> Other pros </p> </li>
-                    </ul>
-                    <ul>
-                        <li><p> Home improvement pros </p></li>
-                        <li> <p> Home builders </p> </li>
-                        <li> <p> Real estate photographers </p> </li>
-                    </ul>
-                </div>
-            </div>
-            <div className="lineaVertical"></div>
-            <div>
-                <h6 className="titleList">I am a pro</h6>
-                <div className="pop-up listFinder">
-                    <ul>
-                        <li><p> Agent advertising </p></li>
-                        <li> <p> Agent resource center </p> </li>
-                        <li> <p> Create a free agent account </p> </li>
-                    </ul>
-                    <ul>
-                        <li><p> Real estate business plan </p></li>
-                        <li> <p> Real estate agent scripts </p> </li>
-                        <li> <p> Listing flyer templates </p> </li>
-                    </ul>
-                </div>
-            </div>
+      {/* COLUMNA 1 */}
+      <div className="flex-1">
+        <h6 className="text-lg font-semibold mb-4">Houston homes for sale</h6>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <ul className="space-y-2 text-gray-700">
+            <li>Home improvement pros</li>
+            <li>Home builders</li>
+            <li>Real estate photographers</li>
+          </ul>
         </div>
-    )
+      </div>
+
+      {/* LÍNEA DIVISORA */}
+      <div className="hidden md:block w-px bg-gray-300" />
+
+      {/* COLUMNA 2 */}
+      <div className="flex-1">
+        <h6 className="text-lg font-semibold mb-4">Houston homes for sale</h6>
+
+        <ul className="space-y-2 text-gray-700">
+          <li>Real estate business plan</li>
+          <li>Real estate agent scripts</li>
+          <li>Listing flyer templates</li>
+        </ul>
+      </div>
+
+    </div>
+  );
 }

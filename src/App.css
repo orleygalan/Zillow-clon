@@ -192,14 +192,14 @@
     display: none;
   }
 
-  .imageFondoPrincipal {
+  /* .imageFondoPrincipal {
     background-image: url(https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2023/07/1920w_nationalbrand.webp);
     width: 100%;
     height: 403px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
+  } */
 
   .inputBuscadorGeneral {
     position: absolute;

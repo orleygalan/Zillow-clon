@@ -1,31 +1,33 @@
-export default function ListManage () {
+export default function ListManage() {
+  return (
+    <div className="w-full bg-white px-8 py-3 rounded-b-xl shadow-xl space-y-10">
 
-    return(
-        <div className="contenedorListManage">
-            <div>
-                <h6 className="titleListManage">Rental Management Tools</h6>
-                <div className="pop-up listBuy">
-                    <ul>
-                        <li><p> My Listings </p></li>
-                        <li> <p> Messages </p> </li>
-                        <li> <p> Applications </p> </li>
-                        <li> <p> Leases </p> </li>
-                        <li> <p> Payments </p> </li>
-                    </ul>
-                </div>
-            </div>
-            <hr className="vimosHr" />
-            <div>
-                <h6 className="titleList">Learn More</h6>
-                <div className="pop-up listBuy">
-                    <ul>
-                        <li><p> Zillow Rental Manager </p></li>
-                        <li> <p> Price My Rental </p> </li>
-                        <li> <p> Resource Center </p> </li>
-                        <li> <p> Help Center </p> </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    )
+      {/* BLOQUE 1 */}
+      <div>
+        <h6 className="text-lg font-semibold mb-4">Rental Management Tools</h6>
+        <ul className="space-y-2 text-gray-700">
+          <li>My Listings</li>
+          <li>Messages</li>
+          <li>Applications</li>
+          <li>Leases</li>
+          <li>Payments</li>
+        </ul>
+      </div>
+
+      {/* LÍNEA SEPARADORA HORIZONTAL */}
+      <div className="w-full h-px bg-gray-300"></div>
+
+      {/* BLOQUE 2 */}
+      <div>
+        <h6 className="text-lg font-semibold mb-4">Learn More</h6>
+        <ul className="space-y-2 text-gray-700">
+          <li>Zillow Rental Manager</li>
+          <li>Price My Rental</li>
+          <li>Resource Center</li>
+          <li>Help Center</li>
+        </ul>
+      </div>
+
+    </div>
+  );
 }

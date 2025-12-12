@@ -1,6 +1,6 @@
 import PrecioMaxMin from './precioMaxMin';
 import RelacionarConPopUp from '../componentes/relacionarpophome';
-import { HeartMaximo } from './Maps';
+import HeartMaximo from "./Maps";
 
 
 
