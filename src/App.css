@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  --z-blue: #006aff;
+  --z-blue-dark: #0051cc;
+  --z-blue-pale: #e8f0ff;
+  --z-text-primary: #1a1a1a;
+  --z-text-secondary: #555;
+  --z-text-muted: #888;
+  --z-border: #e0e0e0;
+  --z-bg: #f7f7f7;
+  --z-white: #ffffff;
+  --z-success: #1a7c3e;
+  --z-danger: #c23b22;
+  --z-navbar-height: 64px;
+  --z-font: 'Graphik', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+
+body {
+  font-family: var(--z-font);
+  background: var(--z-white);
+  color: var(--z-text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: var(--z-font);
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-family: var(--z-font);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.25s ease both;
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease both;
+}
