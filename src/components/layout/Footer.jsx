@@ -25,7 +25,6 @@ export default function Footer() {
               <p className="text-[13px] font-bold text-gray-900 mb-2">
                 {col.heading}
               </p>
-
               {col.links.map((link) => (
                 <a
                   key={link}
